@@ -1,4 +1,11 @@
-@import url("http://localhost:8081/styles.css");
+@import url('http://fonts.cdnfonts.com/css/chalkboard-se');
+@import url('http://fonts.cdnfonts.com/css/comics');
+@import url('http://fonts.cdnfonts.com/css/sans-comic-sans');
+@import url('http://fonts.cdnfonts.com/css/just-breathe');
+* {
+  font-family: 'Chalkboard Se','Comics','Sans Comic Sans', 'Just Breathe',sans-serif;
+  font-size:1.2em;
+}
 html, body {
   margin: 0;
   padding: 0;

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+sed -i '1i@import url("http://localhost:8081/styles.css");' \
+    src/assets/css/styles.css
+\yarn build
