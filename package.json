@@ -12,5 +12,16 @@
   "description": "",
   "devDependencies": {
     "nanogen": "^0.4.2"
+  },
+  "dependencies":{
+    "colors":"1.4.0"
+  },
+  "resolutions": {
+    "colors": "1.4.0",
+    "cors":"2.8.5",
+    "object-assign":"4.1.1",
+    "opn":"6.0.0",
+    "proxy-middleware":"0.15.0",
+    "send":"0.17.2"
   }
 }
