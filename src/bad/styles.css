@@ -1,11 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/chalkboard-se');
-@import url('http://fonts.cdnfonts.com/css/comics');
-@import url('http://fonts.cdnfonts.com/css/sans-comic-sans');
-@import url('http://fonts.cdnfonts.com/css/just-breathe');
-* {
-  font-family: 'Chalkboard Se','Comics','Sans Comic Sans', 'Just Breathe',sans-serif;
-  font-size:1.2em;
-}
 html, body {
   margin: 0;
   padding: 0;
@@ -14,6 +6,19 @@ html, body {
 body {
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body:after {
+    font-family: monospace;
+    font-size:1.7em;
+    content: "\a\a\a   H-A-C-K-E-D\a\a\a\a\a\a\a   LIBERTY LIBERTY LIBERTY\a   LIBERTY LIBERTY LIBERTY\a   LIBERTY LIBERTY LIBERTY\a \a                                 !  \a             H|H|H|H|H           H__________________________________ \a             H|§|§|§|H           H|* * * * * *|---------------------| \a             H|§|∞|§|H           H| * * * * * |---------------------| \a             H|§|§|§|H           H|* * * * * *|---------------------| \a             H|H|H|H|H           H| * * * * * |---------------------| \a             H|H|H|H|H           H|---------------------------------| \a          ===============        H|---------------------------------| \a            /| _   _ |\\          H|---------------------------------| \a            (| O   O |)          H|---------------------------------| \a            /|   U   |\\          H----------------------------------- \a             |  \\=/  |           H \a              \\_..._/            H \a              _|\\I/|_            H \a      _______/\\| H |/\\_______    H \a     /       \\ \\   / /       \\   H \a    |         \\ | | /         |  H \a    |          ||o||          |  H \a    |    |     ||o||     |    |  H \a    |    |     ||o||     |    |  H   Carl Pilcher " attr(title);
+    white-space: pre;
+    color: red;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    z-index;-1;
 }
 
 h1, h2, h3, h4, h5, h6 {
